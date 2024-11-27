@@ -139,46 +139,46 @@ class="relative bg-cover bg-center bg-no-repeat " style="background-image: url({
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div class="grid gap-4">
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="images/gallery/g1.jpg" alt="">
+                    <img class="h-auto max-w-full rounded-lg" src="{{ asset('images\g1.jpg') }}" alt="">
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="images/gallery/g2.jpg" alt="">
+                    <img class="h-auto max-w-full rounded-lg" src="{{ asset('images\g2.jpg') }}" alt="">
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="images/gallery/g3.jpg" alt="">
-                </div>
-            </div>
-            <div class="grid gap-4">
-                <div>
-                    <img class="h-auto max-w-full rounded-lg" src="images/gallery/g4.jpg" alt="">
-                </div>
-                <div>
-                    <img class="h-auto max-w-full rounded-lg" src="images/gallery/g5.jpg" alt="">
-                </div>
-                <div>
-                    <img class="h-auto max-w-full rounded-lg" src="images/gallery/g6.jpg" alt="">
+                    <img class="h-auto max-w-full rounded-lg" src="{{ asset('images\g3.jpg') }}" alt="">
                 </div>
             </div>
             <div class="grid gap-4">
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="images/gallery/g7.jpg" alt="">
+                    <img class="h-auto max-w-full rounded-lg" src="{{ asset('images\g5.jpg') }}" alt="">
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="images/gallery/g8.jpg" alt="">
+                    <img class="h-auto max-w-full rounded-lg" src="{{ asset('images\g6.jpg') }}" alt="">
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="images/gallery/g9.jpg" alt="">
+                    <img class="h-auto max-w-full rounded-lg" src="{{ asset('images\g7.jpg') }}" alt="">
                 </div>
             </div>
             <div class="grid gap-4">
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="images/gallery/g10.jpg" alt="">
+                    <img class="h-auto max-w-full rounded-lg" src="{{ asset('images\g8.jpg') }}" alt="">
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="images/gallery/g11.jpg" alt="">
+                    <img class="h-auto max-w-full rounded-lg" src="{{ asset('images\g9.jpg') }}" alt="">
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="images/gallery/g12.jpg" alt="">
+                    <img class="h-auto max-w-full rounded-lg" src="{{ asset('images\g4.jpg') }}" alt="">
+                </div>
+            </div>
+            <div class="grid gap-4">
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="{{ asset('images\g10.jpg') }}" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="{{ asset('images\g11.jpg') }}" alt="">
+                </div>
+                <div>
+                    <img class="h-auto max-w-full rounded-lg" src="{{ asset('images\g12.jpg') }}" alt="">
                 </div>
             </div>
         </div>
